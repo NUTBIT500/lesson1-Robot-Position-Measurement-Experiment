@@ -37,4 +37,4 @@ jobs:
 
       - name: Check output files
         run: |
-          python -c "from pathlib import Path; p = Path('outputs'); assert all((p / f).is_file() for f in ('results.json', 'experiment.log', 'position_errors.png'))"
+          python -c "from pathlib import Path; p = Path('output'); assert all((p / f).is_file() for f in ('results.json', 'experiment.log', 'position_errors.png'))"
