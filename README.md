@@ -42,7 +42,6 @@ The resulting MAE is reported in millimeters.
 - Operating system: Windows
 - Python version: 3.14.7
 - Dependencies: See requirements.txt
-- Source-code commit: TODO
 
 ## 6. Installation
 
@@ -64,9 +63,9 @@ Execute:
 
 Generated files:
 
-- outputs/results.json
-- outputs/experiment.log
-- outputs/position_errors.png
+- output/results.json
+- output/experiment.log
+- output/position_errors.png
 
 ## 8. Running the Tests
 
@@ -82,7 +81,7 @@ reproducibility.
 Seed 42:
 
 - MAE: 1.563891842282548 mm
-- Figure: outputs/position_errors.png
+- Figure: output/position_errors.png
 
 ## 10. Reproducibility
 

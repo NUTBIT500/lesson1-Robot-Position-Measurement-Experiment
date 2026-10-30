@@ -1,17 +1,5 @@
 import numpy as np
 from experiment import  run_experiment
-import pytest
-
-# def main():
-#     measurements_100_1, mae_mm_100_1 = run_experiment(42)
-#     measurements_100_2, mae_mm_100_2 = run_experiment(42)
-#     measurements_200_1, mae_mm_200_1 = run_experiment(43)
-#     print(np.array_equal(measurements_100_1,measurements_100_2))
-#     print(mae_mm_100_1, mae_mm_100_2, mae_mm_200_1)
-
-        
-# if __name__ == "__main__":
-#      main()
 
 def test_same_seed():
     measurements1, mae1 = run_experiment(42)

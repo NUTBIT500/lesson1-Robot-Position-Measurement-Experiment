@@ -12,6 +12,5 @@ def mae_numpy(actual, predicted):
         return np.average(errors)
     else:
         raise ValueError
-    
 
     
